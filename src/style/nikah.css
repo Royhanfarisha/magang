@@ -1,0 +1,463 @@
+
+.navbar .navbar-link:hover {
+    background-color: #193F2C;
+    color: #CFE3CC;
+    border-radius: 10px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+
+.home {
+    padding: 100px;
+    margin-top: 129px;
+
+}
+
+.img {
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.home .title-h1 {
+    color: #193F2C;
+    font-weight: 700;
+}
+
+.home .title-p {
+    color: #193F2C;
+    font-weight: 500;
+}
+
+.home .btn {
+    background-color: #193F2C;
+    color: #CFE3CC;
+    border-radius: 20px;
+}
+
+.home .btn:hover {
+    background-color: #CFE3CC;
+    color: #193F2C;
+}
+
+.gam {
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px; 
+    margin-bottom: 70px;  
+}
+
+.work {
+    background-color: #193F2C;
+    text-align: center;
+    color: #F2F4EA;
+    padding-top: 5rem;
+    text-wrap: balance;
+}
+
+.work .container {
+    padding: 10px;
+}
+
+.work .p {
+    padding-top: 2rem;
+}
+
+.work .row {
+    padding-top: 5rem;
+}
+
+.work .text-icon {
+    padding-top: 10px;
+}
+
+.work .image1 {
+   position: relative;
+   top: 11rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.work .image1 .gambar {
+    height: 600px;
+    width: 1050px;
+}
+
+
+.video {
+    padding-top: 15rem;
+    text-wrap: balance;
+}
+
+.video .text-center .p {
+    padding: 2rem;
+    margin: 1px;
+}
+.video .text-center .png {
+    padding-top: 5rem;
+    height: 600px;
+    width: 1050px;
+    padding-bottom: 5rem;
+}
+
+.video .row {
+    padding-top: 4rem;
+}
+
+.video .row .h1 {
+    padding-top: 4rem;
+    color: #193F2C;
+}
+
+.video .row .p {
+    padding-top: 2rem;
+    color: #193F2C;
+}
+
+.video .row .button {
+    background-color: #CFE3CC;
+    border-radius: 20px;
+    color: #193F2C;
+    margin: 5px;
+}
+
+.video .row .button:hover {
+    background-color: #193F2C;
+    color: #CFE3CC;
+}
+
+.video .row .fot {
+    padding-bottom: 5rem;
+}
+
+.costumer {
+    padding-top: 5rem;
+    background-color: #193F2C;
+    color: #F2F4EA;
+    padding-bottom: 4rem;
+}
+
+.costumer .costumer-title {
+    padding-bottom: 5rem;
+}
+
+.costumer .card {
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+.costumer .scr {
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.costumer .card-title {
+    margin: 0;
+    text-align: left;
+}
+
+.costumer .card-start {
+    display: flex;
+}
+
+
+
+.costumer .star {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    color: #FFD56C;
+}
+
+.ask {
+    margin: 5rem;
+    text-wrap: balance;
+}
+
+.ask .container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ask .ask-title {
+    text-align: center;
+}
+
+.ask .ask-title .h1 {
+    padding-bottom: 1rem;
+}
+
+.footer {
+    padding: 2rem;
+    background-color: #193F2C;
+    color: #CFE3CC;
+}
+
+.footer .logo {
+    padding-bottom: 2rem;
+}
+
+.footer .foot {
+    margin: 2rem;
+}
+
+
+
+.footer .title {
+    text-align: end;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #CFE3CC;
+    border-top: 1px solid #CFE3CC;
+}
+
+@media (max-width:576px) {
+    .navbar .navbar-link{
+        width: auto;
+    }
+
+    .row {
+        width: auto;
+    }
+
+    .work {
+        width: auto;
+        padding-left: 3rem;
+    }
+
+    .video .row .col-6 {
+        width: auto;
+        padding-left: 3rem;
+        padding-right: 5rem;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        width: 100%;
+    }
+    .app {
+        width: 100%;
+    }
+    .navbar {
+        width: auto;
+        margin-left: -3rem;
+    }
+
+    .navbar-link {
+        background-color: #193F2C;
+        justify-content: end;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .row .col-6 .home {
+        margin-left: -80px;
+        margin-top: -10px;
+    }
+
+    .row .col-6 .img {
+        width: 50px;
+        height: auto;
+        margin-left: -80px;
+    }
+
+    .work .row {
+        width: 90%;
+    }
+
+    .work .image1 .gambar {
+        width: 90%;
+        padding-right: 4rem;
+    }
+
+    .ask {
+        padding-right: 6rem;
+    }
+
+    .footer {
+        width: auto;
+        padding-right: 3rem;
+    }
+
+    .footer .title .row .row .col-3 {
+        width: auto;
+        padding-right: 3rem;
+    }
+
+    .footer .row .col-4 {
+        width: auto;
+    }
+}
+
+@media (max-width: 992px) {
+ 
+
+    /* navbar */
+    .image-icon {
+        width: auto;
+        padding-left: 25px;
+    }
+    .navbar {
+        width: 55%;
+        
+    }
+   
+    .navbar .navbar-link {
+        font-weight: 900;
+        background-color: #193F2C;
+        color: #CFE3CC;
+        border-radius: 10px;
+    }
+
+    /* home */
+
+    .row {
+        width: 50%;
+    }
+
+    .row .col-6 .home {
+        width: 50px;
+        height: auto;
+    }
+
+    .row .col-6 .img {
+        width: 55%;
+
+    }
+
+    .gam .ga {
+        width: 20%;
+        margin-right: 10rem;
+        margin-bottom: 10rem ;
+        padding-bottom: 10rem;
+    }
+
+    .work {
+        width: 60%;
+    }
+    .work .row .col-4 {
+        width: 60%;
+        padding-left: 15rem;
+    }
+
+   .work .image1 .gambar {
+    width: 70%;
+   } 
+
+   .video {
+    width: 63%;
+   }
+
+    .video .text-center .png {
+        width: 63%;
+    }
+
+    .video .row {
+        width: 63%;
+        padding-left: 7rem;
+    }
+    .video .row .col-6 {
+        width: 63%;
+    }
+
+    .costumer {
+        width: 58%;
+    }
+
+    .ask {
+        width: 40%;
+        margin-left: 3rem;
+    }
+
+    .footer {
+        width: 65%;
+    }
+
+    .video .row .col-6 .fot {
+    }
+
+    .footer .foot {
+        padding-left: 2rem;
+    }
+
+    .footer .logo {
+        width: 10%;
+        height: auto;
+        padding-left: 3rem;
+    }
+
+    .footer .row .col-4 {
+        width: 60%;
+        height: auto;
+        padding-left: 15rem;
+    }
+    
+    .footer .title .row .row .col-3 {
+        width: 60%;
+        padding-left: 10rem;
+    }
+}
+
+@media (max-width:1120px) {
+    .navbar {
+        width: 50%;
+    }
+
+    .row {
+        width: auto;
+        padding-right: 10rem;
+    }
+
+    .work {
+        width: 60%;
+    }
+
+    .work .p {
+        width: 100%;
+    }
+
+    .work .row .col-4 {
+        width: 30%;
+        padding-left: 7rem;
+    }
+
+    .work .image1 .gambar {
+        width: 50%;
+        height: 50%;
+    }
+
+    .video {
+        width: 60%;
+    }
+
+    .video .text-center .png {
+        width: 50%;
+        height: 50%;
+    }
+
+    .costumer {
+        width: 60%;
+    }
+
+    .ask {
+        width: 50%;
+        padding-right: 7rem;
+    }
+
+    .footer {
+        width: 60%;
+    }
+
+    .footer .title {
+        width: 30px;
+    }
+}
